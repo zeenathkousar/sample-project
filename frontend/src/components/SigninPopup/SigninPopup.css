@@ -1,0 +1,43 @@
+.loginpopup{
+    position: absolute;
+    z-index:1;
+    top:80px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.login-popup-container{
+    place-self: center;
+    width: max(22vw,330px);
+    color: gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:25px ;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+    position: relative;
+}
+.crossicon{
+    position: absolute;
+    right:10px;
+    top:10px
+}
+input{
+    padding: 5px;
+    margin-top:10px;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: bisque;
+}
+p{
+    margin-top: 10px;
+}
+
